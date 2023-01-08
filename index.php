@@ -7,11 +7,13 @@
     <title>Thanos</title>
 </head>
 <body>
-    <form action="enviar.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="arquivo" />
-        <br /><br />
-        <input type="submit" value="Enviar" />
-    </form>
+    <section>
+        <form action="enviar.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="arquivo" />
+            <br /><br />
+            <input type="submit" value="Enviar" />
+        </form>
+    </section>
     <br />
     <a href='lista.php'><h3>Lista de arquivos</h3></a><br />
 </body>
