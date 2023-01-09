@@ -17,7 +17,7 @@
                 <input type="file" id="upload" style="display: none;" name="arquivo" />
                 <label for="upload">Selecionar XML</label>
             </div>
-            <button><span>&#8682; Registrar XML </span><span class="uploading"> XML </span></button>
+            <button type="submit"><span>Registrar XML </span><span class="uploading"> XML </span></button>
             <button class="cancel">Cancelar</button>
             <button><a href='lista.php' style="text-decoration: none">Arquivos</a></button>
             <div class="pr">

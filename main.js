@@ -1,3 +1,4 @@
+
 //Setando variaveis
 let file = document.getElementById('upload');
 let button = document.getElementsByTagName('button');
@@ -47,18 +48,19 @@ let upload = ()=>{
         }
     }
 }
+// barra de carregamento -> esta dando erro com o arquivo enviar.php////////
 
-function getFile(filename){
-    if(filename){
-        document.querySelector('.pr').style.display = 'block';
-        load = 0;
-        progress.value = 0;
-        p_i.innerText = '';
-        button[0].onclick = e=>{
-            e.preventDefault();
-            button[0].classList.add('active');
-            button[1].style.visibility = 'visible';
-            process = setInterval(upload, 100);
-        }
-    }
-}
+// function getFile(filename){
+//     if(filename){
+//         document.querySelector('.pr').style.display = 'block';
+//         load = 0;
+//         progress.value = 0;
+//         p_i.innerText = '';
+//         button[0].onclick = e=>{
+//             e.preventDefault();
+//             button[0].classList.add('active');
+//             button[1].style.visibility = 'visible';
+//             process = setInterval(upload, 100);
+//         }
+//     }
+// }

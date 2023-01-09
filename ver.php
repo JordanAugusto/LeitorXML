@@ -1,5 +1,6 @@
 <?php 
 
+
 // Transformando arquivo XML em Objeto
 $xml = simplexml_load_file("xml/".$_GET['arquivo']);
 

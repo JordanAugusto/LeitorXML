@@ -1,4 +1,5 @@
 <?php
+
 $dir = 'xml/';
 $files = scandir($dir);
 
@@ -10,4 +11,4 @@ foreach ($files as $file) {
 
 echo "<br>";
 
-echo "<a href='index.php'><h3>Volta ao Início</h3></a><br />";
+echo "<a href='index.php' style=text-decoration: none><h3>Início</h3></a><br />";
